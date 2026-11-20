@@ -3,6 +3,7 @@
   "name": "Allegro – kraj sprzedawcy",
   "version": "1.0.0",
   "description": "Oznacza oferty na Allegro flagą kraju sprzedawcy i pozwala ukryć oferty sprzedawców spoza UE.",
+  "homepage_url": "https://github.com/atanistra/allegro-kraj-sprzedawcy",
   "icons": {
     "48": "icons/icon.svg",
     "96": "icons/icon.svg"
@@ -12,17 +13,29 @@
       "id": "allegro-kraj-sprzedawcy@tanistra",
       "strict_min_version": "140.0",
       "data_collection_permissions": {
-        "required": ["none"]
+        "required": [
+          "none"
+        ]
       }
     }
   },
-  "permissions": ["storage"],
-  "host_permissions": ["https://allegro.pl/*"],
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://allegro.pl/*"
+  ],
   "content_scripts": [
     {
-      "matches": ["https://allegro.pl/*"],
-      "js": ["content.js"],
-      "css": ["content.css"],
+      "matches": [
+        "https://allegro.pl/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
       "run_at": "document_idle"
     }
   ]
