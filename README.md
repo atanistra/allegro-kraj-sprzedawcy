@@ -38,4 +38,4 @@ Tworzy `dist/allegro-kraj-sprzedawcy-<wersja>.zip`, gotowy do wysłania na addon
 
 ## Licencja
 
-MIT
+Domena publiczna ([The Unlicense](https://unlicense.org)) – bierz i rób z tym, co chcesz.
